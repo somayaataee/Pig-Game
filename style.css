@@ -8,6 +8,7 @@ html{
     /* font-size: 62re; */
 }
 body{
+    font-family: 'Nunito', sans-serif;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -22,7 +23,7 @@ main{
     width: 90%;
     overflow: hidden;
     border-radius: 8px;
-    background-color: rgb(133, 129, 129);
+    background-color: rgb(154, 148, 148);
     filter: blur();
     backdrop-filter: blur(200px);
     box-shadow: 5px 8px 8px rgba(227, 215, 215, 0.33);
@@ -78,6 +79,7 @@ main{
     font-size: 30px;
 }
 .btn{
+    
     position: absolute;
     left: 50%;
     transition: all 0.75s;
@@ -93,11 +95,7 @@ main{
     padding:5px 25px;
     box-shadow: 0 16px 20px rgba(227, 215, 215, 0.33);
 }
-/* .btn::first-letter{
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 32px;
-} */
+
 .btn--new{
     top: 30px;
 }
