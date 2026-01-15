@@ -93,17 +93,39 @@ main{
     padding:5px 25px;
     box-shadow: 0 16px 20px rgba(227, 215, 215, 0.33);
 }
-.btn::first-letter{
+/* .btn::first-letter{
     display: inline-block;
     margin-right: 10px;
     font-size: 32px;
-}
+} */
 .btn--new{
     top: 30px;
 }
 .btn--roll{
-    top: 350px;
+    top: 370px;
 }
 .btn--hold{
     top: 440px;
+}
+.btn:active{
+    transform: translate(-50%,3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.btn:focus {
+  outline: none;
+}
+.dice{
+position: absolute;
+left: 50%;
+height: 20%;
+transform: translateX(-50%);
+top: 30%;
+
+}
+.player--winner{
+    color: #c7365f;
+    font-weight: 700;
+}
+.hidden{
+    display: none;
 }
