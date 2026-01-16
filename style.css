@@ -49,7 +49,7 @@ main{
     margin-bottom: auto;
 }
 .player-active{
-    background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .player-active .name{
     font-weight: 700;
@@ -121,7 +121,7 @@ top: 30%;
 
 }
 .player--winner{
-    color: #c7365f;
+    background-color: black;
     font-weight: 700;
 }
 .hidden{
