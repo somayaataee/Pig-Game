@@ -15,6 +15,8 @@ diceE1.classList.add(".hidden");
 
 btnRoll.addEventListener('click',function(){
     const dice =Math.trunc( Math.random() * 6) +1;
+    console.log(dice);
+    
     diceE1.classList.remove(".hidden");
     diceE1.src = `./images/dice-${dice}.png`;
 })
