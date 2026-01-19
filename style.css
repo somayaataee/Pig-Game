@@ -28,6 +28,7 @@ main{
     backdrop-filter: blur(200px);
     box-shadow: 0px 1px 15px 10px rgba(227, 215, 215, 0.33);
 }
+
 .player{
     display: flex;
     flex-direction: column;
